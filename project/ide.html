@@ -1,0 +1,23 @@
+<html lang="en">
+<head>
+    <title>CompilerGB online</title>
+    <link rel="stylesheet" href="idecss.css">
+</head>
+<body class="MAG">
+    <div class="header">MAG Ide</div>
+    <div class="control_panal">
+        Language
+        <select  id="languages" class="languages" onchange="changeLanguage()">
+        <option value="c">c</option>
+        <option value="cpp">c++</option>
+        <option value="java">java</option>
+        <option value="py">python</option>
+        </select>
+    </div>
+    <div class="editor" id="editor"></div>
+    <div class="btton">
+        <button class="run" onclick="excuteCode()">RUN</button>
+    </div>
+    <div class="output" id="output"></div>
+</body>
+</html>
